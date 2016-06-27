@@ -3,7 +3,7 @@
 //  JSCalc
 //
 //  Created by Nigel Brooke on 2013-08-08.
-//  Copyright (c) 2013 Nigel Brooke. All rights reserved.
+//  Copyright (c) 2013 Steamclock Software. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -15,6 +15,8 @@
     NSLog(@"didFinishLaunchingWithOptions");
 
     // Override point for customization after application launch.
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     return YES;
 }
 							
